@@ -1,0 +1,693 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    background: #FFFFFF;
+}
+button{
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #121212 !important;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* Header css Start */
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 50px;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        gap: 40px;
+    }
+    header .logoname{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.03em;
+        color: #121212;
+    }
+    header span{
+        color: #4D77FF;
+    }
+    header li a{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #121212;
+        text-decoration: none;
+    }
+    header button{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #121212;
+        padding: 12px 22px;
+        border-radius: 10px;
+        border: none;
+        background-color: transparent;
+    }
+    header button:hover{
+        cursor: pointer;
+        background: #4D77FF !important;
+        color: #FFFFFF;
+    }
+    .menu-bar{
+        display: none;
+    }
+/* Header css End */
+
+/* Home Css Start */
+    .home{
+        display: flex;
+        padding: 0 50px;
+        height: 100vh;
+    }
+    .home-images{
+        position: relative;
+    }
+    .doctor-img img{
+        width: 600px;
+        /* height: 520px; */
+    }
+    .polygon img{
+        width: 700px;
+    }
+    .doctor-img{
+        position: absolute;
+        top: 40px;
+        z-index: 1;
+        left: 105px;
+    }
+    .polygon{
+        left: 0;
+        top: 190px;
+        position: absolute;
+    }
+    .home-text{
+        padding-top: 75px;
+    }
+    .home-text h1{
+        font-weight: 700;
+        font-size: 44px;
+        letter-spacing: 0.02em;
+        color: #121212;
+        padding-bottom: 26px;
+    }
+    .home-text span{
+        color: #4D77FF;
+    }
+    .home-text p{
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 0.03em;
+        color: #696969;
+        padding-bottom: 26px;
+    }
+    .home-text button{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        padding: 16px 36px;
+        background: #4D77FF;
+        border-radius: 10px;
+        border: none;
+    }
+    .doctor-card{
+        width: 130px;
+        height: 150px;
+        background: #FFFFFF;
+        box-shadow: 0px -24px 34px rgba(199, 201, 217, 0.15);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        position: absolute;
+        top: 285px;
+        left: 115px;
+    }
+    .doctor-card h3{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #121212;
+        padding-top: 5px;       
+    }
+    .doctor-card h4{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: #696969;
+        padding-bottom: 7px;
+    }
+    .doctor-card button{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        background-color: #4D77FF;
+        padding: 6px 12px;
+        border-radius: 7px;
+        border: none;
+    }
+/* Home Css End */
+
+/* Solution Css Start */
+    .solution{
+        padding: 50px;
+    }
+    .solution h3{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #4D77FF;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .solution h2{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.015em;
+        color: #121212;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .our-solutions{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-bottom: 120px;
+    }
+    .solution-card{
+        background: #FFFFFF;    
+        box-shadow: 0px 10px 40px rgba(18, 18, 18, 0.1);
+        border-radius: 0px 0px 10px 10px;
+        width: 287px;
+        height: 226px;
+        padding: 53px 0 0 43.33px;
+    }
+    .solution-card h4{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 0.03em;
+        color: #121212;
+        padding: 12px 0;
+    }
+    .solution-card p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: #696969;
+    }
+/* Solution Css End */
+
+/* Find Doctor Css Start */
+    
+    .find-doctor{
+        display: flex;
+        padding: 85px 50px;
+        gap: 150px;
+        height: 100vh;
+    }
+    .find-doctor-text h4{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #4D77FF;
+        padding-bottom: 10px;
+    }
+    .find-doctor-text h3{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.015em;
+        color: #121212;
+        padding-bottom: 26px;
+    }
+    .find-doctor-text p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #696969;
+        padding-bottom: 28px;
+    }
+    .app-feature{
+        display: flex; 
+        align-items: center;
+        gap: 12px;
+        padding-bottom: 12px;
+    }
+    .app-feature h6{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #121212;
+    }
+    .find-doctor-text button{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        padding: 16px 36px;
+        background: #4D77FF;
+        border-radius: 10px;
+        border: none;
+    }
+    .available-doctors{
+        width: 202px;
+        height: 256px;
+        background: #FFFFFF;
+        box-shadow: -4px -10px 50px rgba(18, 18, 18, 0.1);
+        border-radius: 10px;
+        padding: 18px 0 0 30px;
+    }
+    .available-doctors h3{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #121212;
+    }
+    .available-doctors h4{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: #696969;
+        padding-bottom: 18px;
+    }
+    .doctor-online h3{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #121212;
+    }
+    .doctor-online p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: #696969;
+    }
+    .available-doctors button{
+        padding: 8px 37px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: #4D77FF;
+        background: #EDF1FF;
+        border-radius: 10px;
+        border: none;
+    }
+    .doctor-online{
+        display: flex;
+        gap: 10px;
+        padding-bottom: 15px;
+    }
+    .find-doctor-imgs{
+        margin-top: 70px;
+        position: relative;
+    }
+    .half-polygon{
+        top: 100px;
+        left: 0;
+        position: absolute;
+    }
+    .doctor-img-1{
+        left: 55px;
+        top: 0;
+        position: absolute;
+    }
+    .available-doctors{
+        position: absolute;
+        top: -35px;
+        left: -45px;
+        z-index: 1;
+    }
+    .doctor-img-1 img{
+        width: 450px;
+        height: 470px;
+    }
+    .half-polygon img{
+        width: 550px;
+    }
+/* Find Doctor Css End */
+
+/* Schedual Css Start */
+
+    .schedule{
+        padding: 120px 50px;
+        justify-content: center;
+        display: flex;  
+        flex-wrap: wrap;
+        gap: 70px;
+    }
+    .schedule-text h3{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #4D77FF;
+        padding-bottom: 10px;
+    }
+    .schedule-text h2{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0.015em;
+        color: #121212;
+        padding-bottom: 26px;
+    }
+    .schedule-text p{   
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #696969;
+        padding-bottom: 26px;
+    }
+    .schedule button{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        padding: 16px 36px;
+        background: #4D77FF;
+        border-radius: 10px;
+        border: none;
+    }
+    .main-btn{
+        padding-top: 26px;
+    }
+/* Schedual Css End */
+
+/* Rating Css Start */
+.rating{
+    padding: 130px 0;   
+}
+.rating-card{
+    width: 287px;
+    height: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(18, 18, 18, 0.1);
+    border-radius: 0px 0px 10px 10px;
+}
+.rating h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #4D77FF;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.rating h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.015em;    
+    color: #121212;
+    padding-bottom: 50px;
+}
+.ratings{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+}
+.rating-card{
+    padding: 45px 0;
+}
+.rating-card h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: #121212;
+    padding-bottom: 12px;
+}
+.rating-card p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #121212;
+}
+.rating-card h4{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #696969;
+}
+/* Rating Css End */
+
+/* FeedBack Css Start */
+    .client-feedback{
+        height: 100vh;
+        position: relative;
+    }
+    .feedback{
+        height: 350px;
+        background: #EDF1FF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    .client-feedback h2{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.015em;
+        color: #121212;
+        padding-bottom: 10px;
+    }
+    .client-feedback h4{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+        color: #696969;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .feedback-img{
+        position: absolute;
+        left: 100px;
+        top: 220px;
+    }
+    .feedback-text{
+        position: absolute;
+        right: 100px;
+    }
+    .feedback-text p{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 40px;
+        letter-spacing: 0.03em;
+        color: #121212;
+    }
+    .intro{
+        display: flex;
+        position: absolute;
+        right: 170px;
+        padding-top: 40px;
+    }
+    .imgs{
+        margin-left: 150px;
+    }
+    .name h3{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #121212;
+        padding-bottom: 14px;
+    }
+    .name p{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.03em;
+        color: #696969;
+    }
+
+
+/* FeedBack Css End */
+
+
+
+
+
+
+
+
+
+
+
+/* MediaQuery Strat */
+
+/* 992 px */
+@media screen and (max-width: 992px) {
+    nav{
+        padding: 20px;
+    }
+    .login-btns{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+    header li{
+        display: none;
+    }
+    /* header mq css end */
+}
+
+/* 1300px */
+@media screen and (max-width: 1300px) {
+    .home{
+        flex-direction: column-reverse;
+        padding: 25px;
+        align-items: center;
+        height: 100%;
+    }
+    .home-images{
+        position: static;
+    }
+    .polygon{
+        display: none;
+    }
+    .doctor-img{
+        position: static;
+    }
+    .doctor-card{
+        position: static;
+        display: none;
+    }
+    /* home mq css end */
+    .find-doctor-imgs{
+        position: static;
+    }
+    .doctor-img-1{
+        position: static;
+    }
+    .half-polygon{
+        display: none;
+    }
+    .find-doctor{
+        padding: 25px;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 100%;
+        gap: 25px;
+    }
+    .available-doctors{
+        display: none;
+    }
+    /* find doctor mq css end */
+}
+
+
+/* 440px */
+@media screen and (max-width: 440px) {
+    .home-images img{
+        width: 100%;
+    }
+    .home-text{
+        padding-top: 15px;
+    }
+    /* Home mq css end */
+    .solution{
+        padding: 10px;
+    }
+    .line{
+        width: 100%;
+    }
+    .solution-card{
+        width: 100%;
+    }
+    /* solution mq css end */
+    .doctor-img-1 img{
+        width: 100%;
+    }
+    /* find-doctor mq css end */
+    .rating-card{
+        width: 100%;
+    }
+    /* Rating mq css end */
+}
+
+
+/* 768px */
+@media screen and (max-width: 768px) {
+    .schedule{
+        padding: 25px;
+        gap: 15px;
+    }
+    .schedule-img img{
+        width: 100%;
+    }
+    /* schedual mq css End */
+    .rating{
+        padding: 25px;
+    }
+    /* Rating mq css end */
+}
+
+
+/* 1100px */
+@media screen and (max-width: 1100px) {
+    .client-feedback{
+        height: 100%;
+        position: static;
+    }
+    .feedback{
+        height: 100%;
+        flex-direction: column;
+    }
+    .feedback-img{
+        position: static;
+    }
+    .feedback-text{
+        position: static;
+    }
+    .intro{
+        position: static;
+        justify-content: center;
+    }
+}
