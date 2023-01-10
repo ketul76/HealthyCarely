@@ -80,20 +80,17 @@ button:hover{
     }
     .doctor-img img{
         width: 600px;
-        /* height: 520px; */
-    }
-    .polygon img{
-        width: 700px;
+        height: 567px;
     }
     .doctor-img{
         position: absolute;
-        top: 40px;
+        top: 0;
         z-index: 1;
-        left: 105px;
+        left: 155px;
     }
     .polygon{
-        left: 0;
-        top: 190px;
+        left: -50px;
+        top: 175px;
         position: absolute;
     }
     .home-text{
@@ -334,31 +331,27 @@ button:hover{
         padding-bottom: 15px;
     }
     .find-doctor-imgs{
-        margin-top: 70px;
+        margin-top: 120px;
         position: relative;
     }
     .half-polygon{
-        top: 100px;
-        left: 0;
+        top: -40px;
+        left: -60px;
         position: absolute;
     }
     .doctor-img-1{
-        left: 55px;
-        top: 0;
+        left: 105px;
+        top: -100px;
         position: absolute;
     }
     .available-doctors{
         position: absolute;
-        top: -35px;
-        left: -45px;
+        top: -105px;
+        left: -35px;
         z-index: 1;
     }
     .doctor-img-1 img{
         width: 450px;
-        height: 470px;
-    }
-    .half-polygon img{
-        width: 550px;
     }
 /* Find Doctor Css End */
 
@@ -545,11 +538,55 @@ button:hover{
         letter-spacing: 0.03em;
         color: #696969;
     }
-
-
 /* FeedBack Css End */
 
-
+/* Footer Css Start */
+    footer{
+        padding: 150px 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    } 
+    .footer-text h1{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.03em;
+        color: #121212;
+        padding-bottom: 12px;
+    } 
+    .footer-text span{
+        color: #4D77FF;
+    }
+    .footer-text p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+        color: #121212;
+    }
+    .footer-lists{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    } 
+    .footer-lists h6{
+        padding-bottom: 16px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.03em;
+        color: #121212;
+    }
+    .footer-lists p{
+        padding-bottom: 16px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+        color: #121212;
+    }
+/* Footer Css End */
 
 
 
@@ -650,6 +687,17 @@ button:hover{
         width: 100%;
     }
     /* Rating mq css end */
+    .feedback-img img{
+        width: 100%;
+    }
+    footer{
+        gap: 20px;
+        padding: 25px;
+    }
+    .footer-lists{
+        gap: 20px;
+    }
+
 }
 
 
@@ -690,4 +738,5 @@ button:hover{
         position: static;
         justify-content: center;
     }
+    /* FeedBack MQ Css End */
 }
