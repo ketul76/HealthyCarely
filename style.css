@@ -651,6 +651,9 @@ button:hover{
     .doctor-img-1{
         position: static;
     }
+    .available-doctors{
+        display: none;
+    }
 }
 
 /* 992 px */
